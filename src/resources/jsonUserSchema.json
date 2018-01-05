@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Moviemate user request",
+  "description": "User json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique id of user",
+      "type": "string"
+    },
+    "access_token": {
+      "description": "The random token of user",
+      "type": "string"
+    },
+    "name": {
+      "description": "The name of user",
+      "type": "string"
+    },
+    "email": {
+      "description": "The email of user",
+      "type": "string"
+    },
+    "gender": {
+      "description": "The gender of user",
+      "type": "string"
+    }
+  },
+  "required": ["id", "access_token", "name", "gender"]
+  }
